@@ -1,0 +1,9 @@
+.idea/*
+**/__pycache__/*
+covid-env/*
+**/Pipfile.lock
+**/yarn.lock
+backend/jhuData.csv
+**/nohup.out
+**/*.pem
+logfile
