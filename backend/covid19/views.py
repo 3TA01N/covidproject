@@ -21,18 +21,16 @@ class CovidCasesView(viewsets.ModelViewSet):
 @api_view(['GET','POST'])
 def getCountryData(request):
     if 'country' not in request.data.keys():
-
         print(request)
         return JsonResponse({"error" : "country does not exist"}, status = 400)
     countryName = request.data['country']
     countryData = CovidCases.objects.filter(country = countryName).order_by('date')
     print(countryData)
-
     data_list = []
     for data_element in countryData:
         data_list.append({
             'date': data_element.date,
             'cases': data_element.cases,
-            #'deaths': data_element.deaths
+            'deaths': data_element.deaths
         })
     return JsonResponse({'data': data_list}, status=200)

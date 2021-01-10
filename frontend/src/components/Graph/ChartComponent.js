@@ -14,11 +14,11 @@ export default class ChartComponent extends React.Component {
   }
 
 
-//   componentDidMount(){
+  componentDidMount(){
 
-//   }
+  }
 
-//  //static getDerivedStateFromProps(props, state) {
+//  static getDerivedStateFromProps(props, state) {
 //      if (state.chartData !== props.chartData) {
 //         var json = [];
 //         var temp = props.chartData.data;
@@ -54,13 +54,12 @@ export default class ChartComponent extends React.Component {
 //                     }
 //                 ]
 //             },
-//             isLoaded : true
+//             //isLoaded : true
 //         }
 //      }
 //      return null;
      
-//  //} 
-
+//  } 
 
 //  componentDidUpdate(prevProps, prevState) {
 //     if (this.props.chartData !== prevProps.chartData) {
@@ -69,15 +68,14 @@ export default class ChartComponent extends React.Component {
 //   }
 
   render(){
-    console.log("from chart");
-    console.log(this.props.chartData.datasets[0].data);
     // if (!this.state.isLoaded) {
     //     return <p>Loading.</p>;
     // }
     return (
         <div>
+          
             <Scatter
-                data={this.state.chartData}
+                data={this.props.chartData}
                 options={{
                     title:{
                       display:true,

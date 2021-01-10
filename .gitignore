@@ -7,3 +7,7 @@ backend/jhuData.csv
 **/nohup.out
 **/*.pem
 logfile
+**/dailyreports/*
+backend/combined.csv
+get-pip.py
+

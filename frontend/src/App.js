@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 import Test from "./components/Test"
 import Graph from "./components/Graph"
 
+
+
 function App() {
   return (
     <div className="wrapper">
@@ -19,7 +21,7 @@ function App() {
           <Route path = "/test">
             <Test />
           </Route>  
-          <Route path = "/graph">
+          <Route path = "/graph" component={Graph}>
             <Graph />
           </Route>
         </Switch>
@@ -28,6 +30,7 @@ function App() {
 
   );
 }
+
 /*<Router>
       <Switch>
         <Route
