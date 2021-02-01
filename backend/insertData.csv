@@ -1,0 +1,763 @@
+state,country,date,cases,deaths
+not provided,Afghanistan,2021-01-30,55008,2400
+not provided,Albania,2021-01-30,77251,1369
+not provided,Algeria,2021-01-30,107122,2888
+not provided,Andorra,2021-01-30,9885,101
+not provided,Angola,2021-01-30,19782,464
+not provided,Antigua and Barbuda,2021-01-30,218,7
+not provided,Argentina,2021-01-30,1922264,47931
+not provided,Armenia,2021-01-30,166901,3071
+Australian Capital Territory,Australia,2021-01-30,118,3
+New South Wales,Australia,2021-01-30,5104,54
+Northern Territory,Australia,2021-01-30,98,0
+Queensland,Australia,2021-01-30,1309,6
+South Australia,Australia,2021-01-30,597,4
+Tasmania,Australia,2021-01-30,234,13
+Victoria,Australia,2021-01-30,20448,820
+Western Australia,Australia,2021-01-30,903,9
+not provided,Austria,2021-01-30,413208,7703
+not provided,Azerbaijan,2021-01-30,230066,3126
+not provided,Bahamas,2021-01-30,8174,176
+not provided,Bahrain,2021-01-30,102626,372
+not provided,Bangladesh,2021-01-30,534770,8111
+not provided,Barbados,2021-01-30,1523,12
+not provided,Belarus,2021-01-30,246570,1708
+Antwerp,Belgium,2021-01-30,88269,0
+Brussels,Belgium,2021-01-30,87956,0
+East Flanders,Belgium,2021-01-30,73394,0
+Flemish Brabant,Belgium,2021-01-30,54012,0
+Hainaut,Belgium,2021-01-30,108969,0
+Liege,Belgium,2021-01-30,101467,0
+Limburg,Belgium,2021-01-30,34473,0
+Luxembourg,Belgium,2021-01-30,19947,0
+Namur,Belgium,2021-01-30,37488,0
+Unknown,Belgium,2021-01-30,12560,21066
+Walloon Brabant,Belgium,2021-01-30,27371,0
+West Flanders,Belgium,2021-01-30,61931,0
+not provided,Belize,2021-01-30,11908,301
+not provided,Benin,2021-01-30,3786,48
+not provided,Bhutan,2021-01-30,858,1
+not provided,Bolivia,2021-01-30,215397,10330
+not provided,Bosnia and Herzegovina,2021-01-30,121497,4679
+not provided,Botswana,2021-01-30,21293,134
+Acre,Brazil,2021-01-30,48347,864
+Alagoas,Brazil,2021-01-30,117287,2737
+Amapa,Brazil,2021-01-30,76884,1059
+Amazonas,Brazil,2021-01-30,265994,8018
+Bahia,Brazil,2021-01-30,585958,10059
+Ceara,Brazil,2021-01-30,370300,10465
+Distrito Federal,Brazil,2021-01-30,276572,4545
+Espirito Santo,Brazil,2021-01-30,293030,5841
+Goias,Brazil,2021-01-30,350349,7487
+Maranhao,Brazil,2021-01-30,207415,4688
+Mato Grosso,Brazil,2021-01-30,215392,5036
+Mato Grosso do Sul,Brazil,2021-01-30,160623,2898
+Minas Gerais,Brazil,2021-01-30,729968,14939
+Para,Brazil,2021-01-30,328800,7618
+Paraiba,Brazil,2021-01-30,190480,4048
+Parana,Brazil,2021-01-30,547430,10013
+Pernambuco,Brazil,2021-01-30,260679,10332
+Piaui,Brazil,2021-01-30,158584,3051
+Rio Grande do Norte,Brazil,2021-01-30,140032,3282
+Rio Grande do Sul,Brazil,2021-01-30,546708,10663
+Rio de Janeiro,Brazil,2021-01-30,520730,29789
+Rondonia,Brazil,2021-01-30,123957,2229
+Roraima,Brazil,2021-01-30,73909,856
+Santa Catarina,Brazil,2021-01-30,575616,6325
+Sao Paulo,Brazil,2021-01-30,1773024,52954
+Sergipe,Brazil,2021-01-30,136799,2773
+Tocantins,Brazil,2021-01-30,102108,1376
+not provided,Brunei,2021-01-30,180,3
+not provided,Bulgaria,2021-01-30,218618,9028
+not provided,Burkina Faso,2021-01-30,10580,120
+not provided,Burma,2021-01-30,139864,3125
+not provided,Burundi,2021-01-30,1613,2
+not provided,Cabo Verde,2021-01-30,13981,133
+not provided,Cambodia,2021-01-30,465,0
+not provided,Cameroon,2021-01-30,29617,462
+Alberta,Canada,2021-01-30,123747,1631
+British Columbia,Canada,2021-01-30,66779,1189
+Diamond Princess,Canada,2021-01-30,0,1
+Grand Princess,Canada,2021-01-30,13,0
+Manitoba,Canada,2021-01-30,29446,825
+New Brunswick,Canada,2021-01-30,1230,18
+Newfoundland and Labrador,Canada,2021-01-30,408,4
+Northwest Territories,Canada,2021-01-30,35,0
+Nova Scotia,Canada,2021-01-30,1570,65
+Nunavut,Canada,2021-01-30,284,1
+Ontario,Canada,2021-01-30,271060,6160
+Prince Edward Island,Canada,2021-01-30,111,0
+Quebec,Canada,2021-01-30,261360,9763
+Repatriated Travellers,Canada,2021-01-30,13,0
+Saskatchewan,Canada,2021-01-30,22646,268
+Yukon,Canada,2021-01-30,70,1
+not provided,Central African Republic,2021-01-30,4981,63
+not provided,Chad,2021-01-30,3347,118
+Antofagasta,Chile,2021-01-30,31159,645
+Araucania,Chile,2021-01-30,31538,400
+Arica y Parinacota,Chile,2021-01-30,12855,253
+Atacama,Chile,2021-01-30,10081,128
+Aysen,Chile,2021-01-30,2478,18
+Biobio,Chile,2021-01-30,60569,1050
+Coquimbo,Chile,2021-01-30,16839,339
+Los Lagos,Chile,2021-01-30,41573,397
+Los Rios,Chile,2021-01-30,14523,156
+Magallanes,Chile,2021-01-30,19862,272
+Maule,Chile,2021-01-30,35158,694
+Metropolitana,Chile,2021-01-30,342453,11329
+Nuble,Chile,2021-01-30,13714,263
+OHiggins,Chile,2021-01-30,25985,654
+Tarapaca,Chile,2021-01-30,21033,353
+Unknown,Chile,2021-01-30,51,1
+Valparaiso,Chile,2021-01-30,43029,1387
+Anhui,China,2021-01-30,994,6
+Beijing,China,2021-01-30,1036,9
+Chongqing,China,2021-01-30,591,6
+Fujian,China,2021-01-30,541,1
+Gansu,China,2021-01-30,187,2
+Guangdong,China,2021-01-30,2124,8
+Guangxi,China,2021-01-30,267,2
+Guizhou,China,2021-01-30,147,2
+Hainan,China,2021-01-30,171,6
+Hebei,China,2021-01-30,1312,7
+Heilongjiang,China,2021-01-30,1561,13
+Henan,China,2021-01-30,1303,22
+Hong Kong,China,2021-01-30,10399,179
+Hubei,China,2021-01-30,68150,4512
+Hunan,China,2021-01-30,1031,4
+Inner Mongolia,China,2021-01-30,366,1
+Jiangsu,China,2021-01-30,694,0
+Jiangxi,China,2021-01-30,935,1
+Jilin,China,2021-01-30,541,3
+Liaoning,China,2021-01-30,400,2
+Macau,China,2021-01-30,47,0
+Ningxia,China,2021-01-30,75,0
+Qinghai,China,2021-01-30,18,0
+Shaanxi,China,2021-01-30,539,3
+Shandong,China,2021-01-30,866,7
+Shanghai,China,2021-01-30,1694,7
+Shanxi,China,2021-01-30,238,0
+Sichuan,China,2021-01-30,870,3
+Tianjin,China,2021-01-30,343,3
+Tibet,China,2021-01-30,1,0
+Xinjiang,China,2021-01-30,980,3
+Yunnan,China,2021-01-30,231,2
+Zhejiang,China,2021-01-30,1316,1
+Amazonas,Colombia,2021-01-30,3687,137
+Antioquia,Colombia,2021-01-30,324932,5890
+Arauca,Colombia,2021-01-30,5326,154
+Atlantico,Colombia,2021-01-30,114633,3814
+Bolivar,Colombia,2021-01-30,63425,1267
+Boyaca,Colombia,2021-01-30,41626,872
+Caldas,Colombia,2021-01-30,43944,859
+Capital District,Colombia,2021-01-30,610855,12559
+Caqueta,Colombia,2021-01-30,16541,589
+Casanare,Colombia,2021-01-30,11366,226
+Cauca,Colombia,2021-01-30,25494,646
+Cesar,Colombia,2021-01-30,38258,1086
+Choco,Colombia,2021-01-30,6082,179
+Cordoba,Colombia,2021-01-30,33019,1715
+Cundinamarca,Colombia,2021-01-30,94687,2440
+Guainia,Colombia,2021-01-30,1280,21
+Guaviare,Colombia,2021-01-30,2160,39
+Huila,Colombia,2021-01-30,46111,1490
+La Guajira,Colombia,2021-01-30,15583,595
+Magdalena,Colombia,2021-01-30,29765,1178
+Meta,Colombia,2021-01-30,40467,883
+Narino,Colombia,2021-01-30,45491,1365
+Norte de Santander,Colombia,2021-01-30,48529,2518
+Putumayo,Colombia,2021-01-30,7326,287
+Quindio,Colombia,2021-01-30,29902,841
+Risaralda,Colombia,2021-01-30,44034,1021
+San Andres y Providencia,Colombia,2021-01-30,2620,42
+Santander,Colombia,2021-01-30,83411,2908
+Sucre,Colombia,2021-01-30,19261,716
+Tolima,Colombia,2021-01-30,62007,1857
+Unknown,Colombia,2021-01-30,0,0
+Valle del Cauca,Colombia,2021-01-30,172607,5423
+Vaupes,Colombia,2021-01-30,1150,13
+Vichada,Colombia,2021-01-30,1227,20
+not provided,Comoros,2021-01-30,2718,90
+not provided,Congo (Brazzaville),2021-01-30,7887,117
+not provided,Congo (Kinshasa),2021-01-30,22604,671
+not provided,Costa Rica,2021-01-30,193276,2604
+not provided,Cote d'Ivoire,2021-01-30,28178,152
+not provided,Croatia,2021-01-30,232090,4998
+not provided,Cuba,2021-01-30,25674,213
+not provided,Cyprus,2021-01-30,30770,197
+not provided,Czechia,2021-01-30,980714,16211
+Faroe Islands,Denmark,2021-01-30,654,1
+Greenland,Denmark,2021-01-30,30,0
+not provided,Denmark,2021-01-30,198095,2106
+not provided,Diamond Princess,2021-01-30,712,13
+not provided,Djibouti,2021-01-30,5931,62
+not provided,Dominica,2021-01-30,117,0
+not provided,Dominican Republic,2021-01-30,212553,2646
+not provided,Ecuador,2021-01-30,249779,14851
+not provided,Egypt,2021-01-30,165418,9263
+not provided,El Salvador,2021-01-30,53989,1614
+not provided,Equatorial Guinea,2021-01-30,5516,86
+not provided,Eritrea,2021-01-30,2135,7
+not provided,Estonia,2021-01-30,43747,411
+not provided,Eswatini,2021-01-30,15666,562
+not provided,Ethiopia,2021-01-30,137021,2091
+not provided,Fiji,2021-01-30,55,2
+not provided,Finland,2021-01-30,44871,671
+French Guiana,France,2021-01-30,16028,76
+French Polynesia,France,2021-01-30,18060,131
+Guadeloupe,France,2021-01-30,9056,157
+Martinique,France,2021-01-30,6370,44
+Mayotte,France,2021-01-30,8231,61
+New Caledonia,France,2021-01-30,47,0
+Reunion,France,2021-01-30,9996,46
+Saint Barthelemy,France,2021-01-30,360,1
+Saint Pierre and Miquelon,France,2021-01-30,24,0
+St Martin,France,2021-01-30,1234,12
+Wallis and Futuna,France,2021-01-30,5,0
+not provided,France,2021-01-30,3167274,75478
+not provided,Gabon,2021-01-30,10748,68
+not provided,Gambia,2021-01-30,4090,128
+not provided,Georgia,2021-01-30,257632,3159
+Baden-Wurttemberg,Germany,2021-01-30,293116,7039
+Bayern,Germany,2021-01-30,402173,10379
+Berlin,Germany,2021-01-30,119844,2268
+Brandenburg,Germany,2021-01-30,68751,2389
+Bremen,Germany,2021-01-30,15971,269
+Hamburg,Germany,2021-01-30,46272,1071
+Hessen,Germany,2021-01-30,171823,4812
+Mecklenburg-Vorpommern,Germany,2021-01-30,19848,448
+Niedersachsen,Germany,2021-01-30,142097,3278
+Nordrhein-Westfalen,Germany,2021-01-30,485893,10784
+Rheinland-Pfalz,Germany,2021-01-30,92638,2515
+Saarland,Germany,2021-01-30,25712,749
+Sachsen,Germany,2021-01-30,179742,6288
+Sachsen-Anhalt,Germany,2021-01-30,52026,1751
+Schleswig-Holstein,Germany,2021-01-30,36021,877
+Thuringen,Germany,2021-01-30,65429,2188
+Unknown,Germany,2021-01-30,7555,0
+not provided,Ghana,2021-01-30,65427,405
+not provided,Greece,2021-01-30,156473,5779
+not provided,Grenada,2021-01-30,148,1
+not provided,Guatemala,2021-01-30,159118,5618
+not provided,Guinea,2021-01-30,14475,82
+not provided,Guinea-Bissau,2021-01-30,2532,45
+not provided,Guyana,2021-01-30,7581,176
+not provided,Haiti,2021-01-30,11460,245
+not provided,Holy See,2021-01-30,27,0
+not provided,Honduras,2021-01-30,147100,3592
+not provided,Hungary,2021-01-30,366279,12463
+not provided,Iceland,2021-01-30,6002,29
+Andaman and Nicobar Islands,India,2021-01-30,4994,62
+Andhra Pradesh,India,2021-01-30,887720,7153
+Arunachal Pradesh,India,2021-01-30,16828,56
+Assam,India,2021-01-30,217120,1082
+Bihar,India,2021-01-30,259496,1499
+Chandigarh,India,2021-01-30,20899,334
+Chhattisgarh,India,2021-01-30,305102,3698
+Dadra and Nagar Haveli and Daman and Diu,India,2021-01-30,3398,2
+Delhi,India,2021-01-30,634956,10849
+Goa,India,2021-01-30,53356,766
+Gujarat,India,2021-01-30,261224,4387
+Haryana,India,2021-01-30,267805,3017
+Himachal Pradesh,India,2021-01-30,57494,976
+Jammu and Kashmir,India,2021-01-30,124449,1936
+Jharkhand,India,2021-01-30,118651,1071
+Karnataka,India,2021-01-30,938865,12213
+Kerala,India,2021-01-30,923912,3722
+Ladakh,India,2021-01-30,9719,130
+Lakshadweep,India,2021-01-30,70,0
+Madhya Pradesh,India,2021-01-30,254886,3807
+Maharashtra,India,2021-01-30,2023814,51042
+Manipur,India,2021-01-30,29052,371
+Meghalaya,India,2021-01-30,13761,146
+Mizoram,India,2021-01-30,4372,9
+Nagaland,India,2021-01-30,12090,88
+Odisha,India,2021-01-30,334958,1906
+Puducherry,India,2021-01-30,39047,647
+Punjab,India,2021-01-30,173084,5609
+Rajasthan,India,2021-01-30,317396,2766
+Sikkim,India,2021-01-30,6088,133
+Tamil Nadu,India,2021-01-30,837832,12350
+Telangana,India,2021-01-30,294469,1599
+Tripura,India,2021-01-30,33351,391
+Unknown,India,2021-01-30,0,0
+Uttar Pradesh,India,2021-01-30,600079,8650
+Uttarakhand,India,2021-01-30,96068,1643
+West Bengal,India,2021-01-30,569769,10164
+not provided,Indonesia,2021-01-30,1066313,29728
+not provided,Iran,2021-01-30,1411731,57889
+not provided,Iraq,2021-01-30,618922,13041
+not provided,Ireland,2021-01-30,195303,3292
+not provided,Israel,2021-01-30,638789,4738
+Abruzzo,Italy,2021-01-30,42444,1462
+Basilicata,Italy,2021-01-30,13202,325
+Calabria,Italy,2021-01-30,32554,588
+Campania,Italy,2021-01-30,220784,3747
+Emilia-Romagna,Italy,2021-01-30,217377,9454
+Friuli Venezia Giulia,Italy,2021-01-30,67138,2378
+Lazio,Italy,2021-01-30,204505,4945
+Liguria,Italy,2021-01-30,69361,3341
+Lombardia,Italy,2021-01-30,536616,27074
+Marche,Italy,2021-01-30,55125,1955
+Molise,Italy,2021-01-30,8261,267
+P.A. Bolzano,Italy,2021-01-30,39700,869
+P.A. Trento,Italy,2021-01-30,27392,1146
+Piemonte,Italy,2021-01-30,222559,8833
+Puglia,Italy,2021-01-30,121838,3179
+Sardegna,Italy,2021-01-30,38370,981
+Sicilia,Italy,2021-01-30,135387,3443
+Toscana,Italy,2021-01-30,133946,4194
+Umbria,Italy,2021-01-30,35757,772
+Valle d'Aosta,Italy,2021-01-30,7781,404
+Veneto,Italy,2021-01-30,311686,8922
+not provided,Jamaica,2021-01-30,15527,348
+Aichi,Japan,2021-01-30,23925,393
+Akita,Japan,2021-01-30,260,1
+Aomori,Japan,2021-01-30,711,13
+Chiba,Japan,2021-01-30,22114,243
+Ehime,Japan,2021-01-30,993,18
+Fukui,Japan,2021-01-30,514,19
+Fukuoka,Japan,2021-01-30,16057,184
+Fukushima,Japan,2021-01-30,1727,44
+Gifu,Japan,2021-01-30,4101,66
+Gunma,Japan,2021-01-30,3806,69
+Hiroshima,Japan,2021-01-30,4802,90
+Hokkaido,Japan,2021-01-30,17334,597
+Hyogo,Japan,2021-01-30,16409,398
+Ibaraki,Japan,2021-01-30,4758,63
+Ishikawa,Japan,2021-01-30,1457,59
+Iwate,Japan,2021-01-30,496,27
+Kagawa,Japan,2021-01-30,633,15
+Kagoshima,Japan,2021-01-30,1609,21
+Kanagawa,Japan,2021-01-30,40424,468
+Kochi,Japan,2021-01-30,846,14
+Kumamoto,Japan,2021-01-30,3332,64
+Kyoto,Japan,2021-01-30,8371,116
+Mie,Japan,2021-01-30,2173,30
+Miyagi,Japan,2021-01-30,3433,22
+Miyazaki,Japan,2021-01-30,1809,17
+Nagano,Japan,2021-01-30,2280,35
+Nagasaki,Japan,2021-01-30,1522,26
+Nara,Japan,2021-01-30,2957,38
+Niigata,Japan,2021-01-30,905,9
+Oita,Japan,2021-01-30,1145,17
+Okayama,Japan,2021-01-30,2329,21
+Okinawa,Japan,2021-01-30,7529,91
+Osaka,Japan,2021-01-30,43509,915
+Port Quarantine,Japan,2021-01-30,2155,2
+Saga,Japan,2021-01-30,956,6
+Saitama,Japan,2021-01-30,24982,343
+Shiga,Japan,2021-01-30,2115,30
+Shimane,Japan,2021-01-30,274,0
+Shizuoka,Japan,2021-01-30,4575,75
+Tochigi,Japan,2021-01-30,3756,46
+Tokushima,Japan,2021-01-30,384,14
+Tokyo,Japan,2021-01-30,99276,880
+Tottori,Japan,2021-01-30,199,2
+Toyama,Japan,2021-01-30,873,27
+Unknown,Japan,2021-01-30,8,0
+Wakayama,Japan,2021-01-30,1054,13
+Yamagata,Japan,2021-01-30,503,13
+Yamaguchi,Japan,2021-01-30,1218,19
+Yamanashi,Japan,2021-01-30,901,15
+not provided,Jordan,2021-01-30,325674,4304
+not provided,Kazakhstan,2021-01-30,234569,3045
+not provided,Kenya,2021-01-30,100675,1755
+not provided,Korea. South,2021-01-30,78205,1420
+not provided,Kosovo,2021-01-30,59646,1487
+not provided,Kuwait,2021-01-30,164622,959
+not provided,Kyrgyzstan,2021-01-30,84529,1412
+not provided,Laos,2021-01-30,44,0
+not provided,Latvia,2021-01-30,65708,1180
+not provided,Lebanon,2021-01-30,298913,3031
+not provided,Lesotho,2021-01-30,8649,164
+not provided,Liberia,2021-01-30,1939,84
+not provided,Libya,2021-01-30,117650,1842
+not provided,Liechtenstein,2021-01-30,2493,52
+not provided,Lithuania,2021-01-30,181734,2787
+not provided,Luxembourg,2021-01-30,50388,577
+not provided,MS Zaandam,2021-01-30,9,2
+not provided,Madagascar,2021-01-30,18743,279
+not provided,Malawi,2021-01-30,23497,687
+not provided,Malaysia,2021-01-30,209661,746
+not provided,Maldives,2021-01-30,15736,51
+not provided,Mali,2021-01-30,8069,330
+not provided,Malta,2021-01-30,17721,265
+not provided,Marshall Islands,2021-01-30,4,0
+not provided,Mauritania,2021-01-30,16608,422
+not provided,Mauritius,2021-01-30,569,10
+Aguascalientes,Mexico,2021-01-30,21004,1725
+Baja California,Mexico,2021-01-30,42127,6789
+Baja California Sur,Mexico,2021-01-30,23319,958
+Campeche,Mexico,2021-01-30,7954,1007
+Chiapas,Mexico,2021-01-30,9313,1349
+Chihuahua,Mexico,2021-01-30,40680,4914
+Ciudad de Mexico,Mexico,2021-01-30,479292,22405
+Coahuila,Mexico,2021-01-30,60185,5197
+Colima,Mexico,2021-01-30,9439,920
+Durango,Mexico,2021-01-30,28832,1873
+Guanajuato,Mexico,2021-01-30,107064,7317
+Guerrero,Mexico,2021-01-30,31330,3102
+Hidalgo,Mexico,2021-01-30,31728,4594
+Jalisco,Mexico,2021-01-30,69856,8494
+Mexico,Mexico,2021-01-30,191471,24329
+Michoacan,Mexico,2021-01-30,40135,3628
+Morelos,Mexico,2021-01-30,18928,1866
+Nayarit,Mexico,2021-01-30,9965,1328
+Nuevo Leon,Mexico,2021-01-30,106333,6724
+Oaxaca,Mexico,2021-01-30,35064,2532
+Puebla,Mexico,2021-01-30,61507,7089
+Queretaro,Mexico,2021-01-30,47228,2798
+Quintana Roo,Mexico,2021-01-30,18749,2232
+San Luis Potosi,Mexico,2021-01-30,50324,3760
+Sinaloa,Mexico,2021-01-30,31193,4708
+Sonora,Mexico,2021-01-30,62602,5260
+Tabasco,Mexico,2021-01-30,52521,3490
+Tamaulipas,Mexico,2021-01-30,48072,3880
+Tlaxcala,Mexico,2021-01-30,14984,1842
+Unknown,Mexico,2021-01-30,0,0
+Veracruz,Mexico,2021-01-30,50817,7188
+Yucatan,Mexico,2021-01-30,30093,2700
+Zacatecas,Mexico,2021-01-30,25121,2076
+not provided,Micronesia,2021-01-30,1,0
+not provided,Moldova,2021-01-30,159513,3434
+not provided,Monaco,2021-01-30,1475,11
+not provided,Mongolia,2021-01-30,1779,2
+not provided,Montenegro,2021-01-30,61202,802
+not provided,Morocco,2021-01-30,470691,8259
+not provided,Mozambique,2021-01-30,37705,363
+not provided,Namibia,2021-01-30,33832,350
+not provided,Nepal,2021-01-30,270854,2027
+Aruba,Netherlands,2021-01-30,6944,59
+Bonaire. Sint Eustatius and Saba,Netherlands,2021-01-30,196,3
+Curacao,Netherlands,2021-01-30,4582,21
+Drenthe,Netherlands,2021-01-30,18364,240
+Flevoland,Netherlands,2021-01-30,23718,193
+Friesland,Netherlands,2021-01-30,21261,259
+Gelderland,Netherlands,2021-01-30,111316,1645
+Groningen,Netherlands,2021-01-30,22061,157
+Limburg,Netherlands,2021-01-30,63045,1292
+Noord-Brabant,Netherlands,2021-01-30,152470,2667
+Noord-Holland,Netherlands,2021-01-30,164335,1997
+Overijssel,Netherlands,2021-01-30,69577,945
+Sint Maarten,Netherlands,2021-01-30,1853,27
+Unknown,Netherlands,2021-01-30,1541,10
+Utrecht,Netherlands,2021-01-30,78553,1015
+Zeeland,Netherlands,2021-01-30,14273,158
+Zuid-Holland,Netherlands,2021-01-30,234261,3381
+not provided,New Zealand,2021-01-30,2304,25
+not provided,Nicaragua,2021-01-30,6253,169
+not provided,Niger,2021-01-30,4516,159
+not provided,Nigeria,2021-01-30,130557,1578
+not provided,North Macedonia,2021-01-30,92518,2848
+not provided,Norway,2021-01-30,62793,564
+not provided,Oman,2021-01-30,133728,1527
+Azad Jammu and Kashmir,Pakistan,2021-01-30,8988,260
+Balochistan,Pakistan,2021-01-30,18815,195
+Gilgit-Baltistan,Pakistan,2021-01-30,4908,102
+Islamabad,Pakistan,2021-01-30,41359,475
+Khyber Pakhtunkhwa,Pakistan,2021-01-30,66953,1897
+Punjab,Pakistan,2021-01-30,157353,4736
+Sindh,Pakistan,2021-01-30,246437,3992
+not provided,Panama,2021-01-30,319453,5244
+not provided,Papua New Guinea,2021-01-30,851,9
+not provided,Paraguay,2021-01-30,132548,2704
+Amazonas,Peru,2021-01-30,19645,279
+Ancash,Peru,2021-01-30,36634,1676
+Apurimac,Peru,2021-01-30,9585,205
+Arequipa,Peru,2021-01-30,53481,1773
+Ayacucho,Peru,2021-01-30,16869,412
+Cajamarca,Peru,2021-01-30,28557,677
+Callao,Peru,2021-01-30,48365,2141
+Cusco,Peru,2021-01-30,28377,612
+Huancavelica,Peru,2021-01-30,8502,178
+Huanuco,Peru,2021-01-30,23291,625
+Ica,Peru,2021-01-30,35679,1944
+Junin,Peru,2021-01-30,34917,1145
+La Libertad,Peru,2021-01-30,40002,2631
+Lambayeque,Peru,2021-01-30,35543,2036
+Lima,Peru,2021-01-30,507596,17927
+Loreto,Peru,2021-01-30,27316,1053
+Madre de Dios,Peru,2021-01-30,9765,167
+Moquegua,Peru,2021-01-30,17892,405
+Pasco,Peru,2021-01-30,7786,185
+Piura,Peru,2021-01-30,46163,2307
+Puno,Peru,2021-01-30,20909,469
+San Martin,Peru,2021-01-30,27558,830
+Tacna,Peru,2021-01-30,16817,373
+Tumbes,Peru,2021-01-30,10329,380
+Ucayali,Peru,2021-01-30,21444,427
+Unknown,Peru,2021-01-30,0,0
+not provided,Philippines,2021-01-30,523516,10669
+not provided,Poland,2021-01-30,1508674,37082
+not provided,Portugal,2021-01-30,711018,12179
+not provided,Qatar,2021-01-30,150984,248
+not provided,Romania,2021-01-30,726918,18264
+Adygea Republic,Russia,2021-01-30,12990,117
+Altai Krai,Russia,2021-01-30,38823,1177
+Altai Republic,Russia,2021-01-30,15395,134
+Amur Oblast,Russia,2021-01-30,19396,140
+Arkhangelsk Oblast,Russia,2021-01-30,50980,468
+Astrakhan Oblast,Russia,2021-01-30,24293,482
+Bashkortostan Republic,Russia,2021-01-30,24080,184
+Belgorod Oblast,Russia,2021-01-30,27279,367
+Bryansk Oblast,Russia,2021-01-30,28901,239
+Buryatia Republic,Russia,2021-01-30,30262,663
+Chechen Republic,Russia,2021-01-30,10758,107
+Chelyabinsk Oblast,Russia,2021-01-30,43543,773
+Chukotka Autonomous Okrug,Russia,2021-01-30,633,4
+Chuvashia Republic,Russia,2021-01-30,19379,865
+Dagestan Republic,Russia,2021-01-30,27847,1242
+Ingushetia Republic,Russia,2021-01-30,13915,160
+Irkutsk Oblast,Russia,2021-01-30,48406,1552
+Ivanovo Oblast,Russia,2021-01-30,26598,748
+Jewish Autonomous Okrug,Russia,2021-01-30,4161,106
+Kabardino-Balkarian Republic,Russia,2021-01-30,18688,324
+Kaliningrad Oblast,Russia,2021-01-30,23890,215
+Kalmykia Republic,Russia,2021-01-30,17345,252
+Kaluga Oblast,Russia,2021-01-30,25835,218
+Kamchatka Krai,Russia,2021-01-30,12226,84
+Karachay-Cherkess Republic,Russia,2021-01-30,17504,52
+Karelia Republic,Russia,2021-01-30,35668,227
+Kemerovo Oblast,Russia,2021-01-30,29246,519
+Khabarovsk Krai,Russia,2021-01-30,44238,251
+Khakassia Republic,Russia,2021-01-30,20333,384
+Khanty-Mansi Autonomous Okrug,Russia,2021-01-30,47474,664
+Kirov Oblast,Russia,2021-01-30,32214,265
+Komi Republic,Russia,2021-01-30,36239,689
+Kostroma Oblast,Russia,2021-01-30,16969,285
+Krasnodar Krai,Russia,2021-01-30,33499,1451
+Krasnoyarsk Krai,Russia,2021-01-30,56126,2318
+Kurgan Oblast,Russia,2021-01-30,15141,206
+Kursk Oblast,Russia,2021-01-30,26105,369
+Leningrad Oblast,Russia,2021-01-30,30484,417
+Lipetsk Oblast,Russia,2021-01-30,20783,368
+Magadan Oblast,Russia,2021-01-30,7833,88
+Mari El Republic,Russia,2021-01-30,10620,154
+Mordovia Republic,Russia,2021-01-30,15966,136
+Moscow,Russia,2021-01-30,927788,13368
+Moscow Oblast,Russia,2021-01-30,191660,3731
+Murmansk Oblast,Russia,2021-01-30,42996,820
+Nenets Autonomous Okrug,Russia,2021-01-30,912,0
+Nizhny Novgorod Oblast,Russia,2021-01-30,83972,2107
+North Ossetia - Alania Republic,Russia,2021-01-30,14381,118
+Novgorod Oblast,Russia,2021-01-30,23895,110
+Novosibirsk Oblast,Russia,2021-01-30,32118,1216
+Omsk Oblast,Russia,2021-01-30,37070,1079
+Orel Oblast,Russia,2021-01-30,26560,348
+Orenburg Oblast,Russia,2021-01-30,33922,473
+Penza Oblast,Russia,2021-01-30,32488,381
+Perm Krai,Russia,2021-01-30,39515,1434
+Primorsky Krai,Russia,2021-01-30,36127,520
+Pskov Oblast,Russia,2021-01-30,29178,131
+Rostov Oblast,Russia,2021-01-30,63321,2616
+Ryazan Oblast,Russia,2021-01-30,21792,227
+Saint Petersburg,Russia,2021-01-30,331956,9686
+Sakha (Yakutiya) Republic,Russia,2021-01-30,30490,487
+Sakhalin Oblast,Russia,2021-01-30,19596,25
+Samara Oblast,Russia,2021-01-30,39991,812
+Saratov Oblast,Russia,2021-01-30,42951,537
+Smolensk Oblast,Russia,2021-01-30,22180,453
+Stavropol Krai,Russia,2021-01-30,42255,923
+Sverdlovsk Oblast,Russia,2021-01-30,70120,2020
+Tambov Oblast,Russia,2021-01-30,22398,268
+Tatarstan Republic,Russia,2021-01-30,15959,282
+Tomsk Oblast,Russia,2021-01-30,28143,263
+Tula Oblast,Russia,2021-01-30,28754,999
+Tver Oblast,Russia,2021-01-30,28873,516
+Tyumen Oblast,Russia,2021-01-30,28088,246
+Tyva Republic,Russia,2021-01-30,15389,187
+Udmurt Republic,Russia,2021-01-30,25415,498
+Ulyanovsk Oblast,Russia,2021-01-30,43597,603
+Vladimir Oblast,Russia,2021-01-30,23341,676
+Volgograd Oblast,Russia,2021-01-30,43111,603
+Vologda Oblast,Russia,2021-01-30,32550,606
+Voronezh Oblast,Russia,2021-01-30,57844,1566
+Yamalo-Nenets Autonomous Okrug,Russia,2021-01-30,35552,377
+Yaroslavl Oblast,Russia,2021-01-30,27937,314
+Zabaykalsky Krai,Russia,2021-01-30,34015,466
+not provided,Rwanda,2021-01-30,15118,193
+not provided,Saint Kitts and Nevis,2021-01-30,37,0
+not provided,Saint Lucia,2021-01-30,1195,13
+not provided,Saint Vincent and the Grenadines,2021-01-30,896,2
+not provided,Samoa,2021-01-30,2,0
+not provided,San Marino,2021-01-30,2996,65
+not provided,Sao Tome and Principe,2021-01-30,1256,17
+not provided,Saudi Arabia,2021-01-30,367813,6372
+not provided,Senegal,2021-01-30,26213,621
+not provided,Serbia,2021-01-30,393897,4000
+not provided,Seychelles,2021-01-30,1186,4
+not provided,Sierra Leone,2021-01-30,3528,79
+not provided,Singapore,2021-01-30,59507,29
+not provided,Slovakia,2021-01-30,248190,4565
+not provided,Slovenia,2021-01-30,165887,3490
+not provided,Solomon Islands,2021-01-30,17,0
+not provided,Somalia,2021-01-30,4784,130
+not provided,South Africa,2021-01-30,1449236,43951
+not provided,South Sudan,2021-01-30,3929,64
+Andalusia,Spain,2021-01-30,391102,6260
+Aragon,Spain,2021-01-30,96962,2918
+Asturias,Spain,2021-01-30,35966,1505
+Baleares,Spain,2021-01-30,51575,577
+C. Valenciana,Spain,2021-01-30,298389,4633
+Canarias,Spain,2021-01-30,35014,524
+Cantabria,Spain,2021-01-30,22186,453
+Castilla - La Mancha,Spain,2021-01-30,148459,4542
+Castilla y Leon,Spain,2021-01-30,184134,5610
+Catalonia,Spain,2021-01-30,492228,9404
+Ceuta,Spain,2021-01-30,3904,71
+Extremadura,Spain,2021-01-30,64241,1429
+Galicia,Spain,2021-01-30,93195,1711
+La Rioja,Spain,2021-01-30,25224,638
+Madrid,Spain,2021-01-30,515790,12578
+Melilla,Spain,2021-01-30,5957,51
+Murcia,Spain,2021-01-30,97921,1066
+Navarra,Spain,2021-01-30,48104,1028
+Pais Vasco,Spain,2021-01-30,132768,3321
+Unknown,Spain,2021-01-30,0,0
+not provided,Sri Lanka,2021-01-30,63293,313
+not provided,Sudan,2021-01-30,29291,1804
+not provided,Suriname,2021-01-30,8403,154
+Blekinge,Sweden,2021-01-30,7271,88
+Dalarna,Sweden,2021-01-30,13304,297
+Gavleborg,Sweden,2021-01-30,18123,462
+Gotland,Sweden,2021-01-30,2602,42
+Halland,Sweden,2021-01-30,18787,220
+Jamtland Harjedalen,Sweden,2021-01-30,5777,100
+Jonkoping,Sweden,2021-01-30,22272,453
+Kalmar,Sweden,2021-01-30,9679,175
+Kronoberg,Sweden,2021-01-30,12054,270
+Norrbotten,Sweden,2021-01-30,10090,188
+Orebro,Sweden,2021-01-30,16162,265
+Ostergotland,Sweden,2021-01-30,19441,477
+Skane,Sweden,2021-01-30,96713,1279
+Sormland,Sweden,2021-01-30,11587,378
+Stockholm,Sweden,2021-01-30,137344,3714
+Uppsala,Sweden,2021-01-30,21478,447
+Varmland,Sweden,2021-01-30,7663,156
+Vasterbotten,Sweden,2021-01-30,10323,115
+Vasternorrland,Sweden,2021-01-30,12991,353
+Vastmanland,Sweden,2021-01-30,16665,299
+Vastra Gotaland,Sweden,2021-01-30,96631,1813
+not provided,Switzerland,2021-01-30,521320,9370
+not provided,Syria,2021-01-30,13998,916
+not provided,Taiwan*,2021-01-30,909,8
+not provided,Tajikistan,2021-01-30,13308,90
+not provided,Tanzania,2021-01-30,509,21
+not provided,Thailand,2021-01-30,18782,77
+not provided,Timor-Leste,2021-01-30,70,0
+not provided,Togo,2021-01-30,5041,77
+not provided,Trinidad and Tobago,2021-01-30,7542,134
+not provided,Tunisia,2021-01-30,207468,6680
+not provided,Turkey,2021-01-30,2470901,25865
+not provided,Uganda,2021-01-30,39533,324
+Cherkasy Oblast,Ukraine,2021-01-30,45631,547
+Chernihiv Oblast,Ukraine,2021-01-30,33738,636
+Chernivtsi Oblast,Ukraine,2021-01-30,45399,868
+Crimea Republic*,Ukraine,2021-01-30,32212,752
+Dnipropetrovsk Oblast,Ukraine,2021-01-30,67524,1806
+Donetsk Oblast,Ukraine,2021-01-30,43927,902
+Ivano-Frankivsk Oblast,Ukraine,2021-01-30,48269,935
+Kharkiv Oblast,Ukraine,2021-01-30,77750,1362
+Kherson Oblast,Ukraine,2021-01-30,20673,575
+Khmelnytskyi Oblast,Ukraine,2021-01-30,43941,784
+Kiev,Ukraine,2021-01-30,128174,2349
+Kiev Oblast,Ukraine,2021-01-30,69032,1132
+Kirovohrad Oblast,Ukraine,2021-01-30,9782,323
+Luhansk Oblast,Ukraine,2021-01-30,13893,396
+Lviv Oblast,Ukraine,2021-01-30,71041,2073
+Mykolaiv Oblast,Ukraine,2021-01-30,38792,666
+Odessa Oblast,Ukraine,2021-01-30,81221,1313
+Poltava Oblast,Ukraine,2021-01-30,43093,883
+Rivne Oblast,Ukraine,2021-01-30,45823,569
+Sevastopol*,Ukraine,2021-01-30,9603,389
+Sumy Oblast,Ukraine,2021-01-30,45737,617
+Ternopil Oblast,Ukraine,2021-01-30,37699,526
+Vinnytsia Oblast,Ukraine,2021-01-30,26955,503
+Volyn Oblast,Ukraine,2021-01-30,36747,578
+Zakarpattia Oblast,Ukraine,2021-01-30,31527,714
+Zaporizhia Oblast,Ukraine,2021-01-30,65582,829
+Zhytomyr Oblast,Ukraine,2021-01-30,44328,742
+not provided,United Arab Emirates,2021-01-30,300661,838
+Anguilla,United Kingdom,2021-01-30,16,0
+Bermuda,United Kingdom,2021-01-30,691,12
+British Virgin Islands,United Kingdom,2021-01-30,114,1
+Cayman Islands,United Kingdom,2021-01-30,390,2
+Channel Islands,United Kingdom,2021-01-30,3639,82
+England,United Kingdom,2021-01-30,3322195,92920
+Falkland Islands (Malvinas),United Kingdom,2021-01-30,41,0
+Gibraltar,United Kingdom,2021-01-30,4108,75
+Isle of Man,United Kingdom,2021-01-30,434,25
+Montserrat,United Kingdom,2021-01-30,13,1
+Northern Ireland,United Kingdom,2021-01-30,103534,1831
+Scotland,United Kingdom,2021-01-30,178682,6100
+Turks and Caicos Islands,United Kingdom,2021-01-30,1459,8
+Unknown,United Kingdom,2021-01-30,0,0
+Wales,United Kingdom,2021-01-30,191677,4720
+not provided,Uruguay,2021-01-30,41181,431
+not provided,Uzbekistan,2021-01-30,78711,621
+not provided,Vanuatu,2021-01-30,1,0
+not provided,Venezuela,2021-01-30,126323,1183
+not provided,Vietnam,2021-01-30,1767,35
+not provided,West Bank and Gaza,2021-01-30,158559,1831
+not provided,Yemen,2021-01-30,2120,615
+not provided,Zambia,2021-01-30,53352,745
+not provided,Zimbabwe,2021-01-30,33273,1193
+Wyoming,US,2021-01-30,51704,596
+Wisconsin,US,2021-01-30,590997,6430
+West Virginia,US,2021-01-30,120340,2015
+Washington,US,2021-01-30,311597,4285
+Virginia,US,2021-01-30,502221,6449
+Virgin Islands,US,2021-01-30,2398,24
+Vermont,US,2021-01-30,11831,173
+Utah,US,2021-01-30,345430,1663
+Texas,US,2021-01-30,2363266,36924
+Tennessee,US,2021-01-30,724742,9574
+South Dakota,US,2021-01-30,108070,1775
+South Carolina,US,2021-01-30,439785,7014
+Rhode Island,US,2021-01-30,114438,2154
+Recovered,US,2021-01-30,0,0
+Puerto Rico,US,2021-01-30,93406,1823
+Pennsylvania,US,2021-01-30,842475,21562
+Oregon,US,2021-01-30,142416,1957
+Oklahoma,US,2021-01-30,386590,3504
+Ohio,US,2021-01-30,892781,11121
+Northern Mariana Islands,US,2021-01-30,132,2
+North Dakota,US,2021-01-30,97561,1447
+North Carolina,US,2021-01-30,752627,9287
+New York,US,2021-01-30,1408698,43453
+New Mexico,US,2021-01-30,173539,3265
+New Jersey,US,2021-01-30,692543,21455
+New Hampshire,US,2021-01-30,65362,1042
+Nevada,US,2021-01-30,277349,4264
+Nebraska,US,2021-01-30,190570,1920
+Montana,US,2021-01-30,93762,1232
+Missouri,US,2021-01-30,472942,7040
+Mississippi,US,2021-01-30,274190,6018
+Minnesota,US,2021-01-30,460819,6255
+Michigan,US,2021-01-30,610138,15525
+Massachusetts,US,2021-01-30,521360,14531
+Maryland,US,2021-01-30,352726,7107
+Maine,US,2021-01-30,39168,590
+Louisiana,US,2021-01-30,397276,8801
+Kentucky,US,2021-01-30,361115,3714
+Kansas,US,2021-01-30,276956,3767
+Iowa,US,2021-01-30,319110,4651
+Indiana,US,2021-01-30,624959,9967
+Illinois,US,2021-01-30,1123873,21213
+Idaho,US,2021-01-30,162683,1725
+Hawaii,US,2021-01-30,25994,406
+Guam,US,2021-01-30,7579,129
+Grand Princess,US,2021-01-30,103,3
+Georgia,US,2021-01-30,905858,14196
+Florida,US,2021-01-30,1713589,26360
+District of Columbia,US,2021-01-30,36662,909
+Diamond Princess,US,2021-01-30,49,0
+Delaware,US,2021-01-30,77551,1081
+Connecticut,US,2021-01-30,250023,7046
+Colorado,US,2021-01-30,395019,5620
+California,US,2021-01-30,3310949,40702
+Arkansas,US,2021-01-30,294387,4838
+Arizona,US,2021-01-30,753379,13098
+Alaska,US,2021-01-30,54216,262
+Alabama,US,2021-01-30,455582,7566

@@ -71,6 +71,7 @@ export default class ChartComponent extends React.Component {
     // if (!this.state.isLoaded) {
     //     return <p>Loading.</p>;
     // }
+    console.log(this.props.dispName)
     return (
         <div>
           
@@ -79,7 +80,7 @@ export default class ChartComponent extends React.Component {
                 options={{
                     title:{
                       display:true,
-                      text:'Cases',
+                      text:"e",
                       fontSize:20
                     },
                     scales: {

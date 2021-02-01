@@ -13,12 +13,14 @@ import numpy as np
 from contextlib import closing
 
 insertDF = pd.DataFrame()
-date = datetime(2020, 11, 4)
 currentDir = os.path.dirname(os.path.abspath(__file__))
+print(currentDir)
+print(os.path.join(currentDir, 'jhuData.csv'))
+
 jhudataPD = (pd.read_csv("jhuData.csv", usecols=['state','country','date','cases','deaths']))
+jhudataPD['date'] = pd.to_datetime(jhudataPD['date'])
 countryNames = jhudataPD.country.unique()
 options = []
-#print(countryNames)
 ind = 0
 for i in countryNames:
     options.append({
@@ -27,11 +29,15 @@ for i in countryNames:
     })
     ind+=1
 #print(jhudataPD.columns)
-lastDate = jhudataPD['date'].iloc[0]
+if (jhudataPD.empty):
+    lastDate = datetime(2020, 1, 22)#'2020-01-22'
+else:
+    lastDate = jhudataPD['date'].max()
+print(lastDate)
 #print(lastDate)
 #lastDate = datetime(2020,1,22)
 #print(lastDate)
-lastDate = datetime.strptime(lastDate, '%Y-%m-%d %H:%M:%S')
+#lastDate = datetime.strptime(lastDate, '%Y-%m-%d')
 #lastDate = datetime(2020, 1, 22)
 
 dateNow = datetime.now()#datetime(2020,3,28)
@@ -61,7 +67,7 @@ def gitPull(date1, date2):
             strDate = date1.strftime("%m-%d-%Y")
             url = 'https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/%s.csv' % strDate
             urllib.request.urlretrieve(url, '%s/dailyreports/%s.csv' %(currentDir, strDate))
-            #print(date1)
+            print(date1)
             date1 += delta
         except urllib.error.HTTPError as e:
             print("file does not exist yet")
@@ -98,10 +104,10 @@ def copyfrom(conn, df, table):
     # select_Query = "select * 
     
 if __name__ == '__main__':
-    #gitPull(lastDate, dateNow)
+    gitPull(lastDate, dateNow)
     for entry in os.scandir('%s/dailyreports' % currentDir):
         if entry.path.endswith(".csv") and datetime.strptime(Path(entry).stem, '%m-%d-%Y')>lastDate:
-            print(Path(entry).stem)
+            #print(Path(entry).stem)
             df = pd.read_csv(entry)
             sumUsDF = pd.DataFrame()
             stateList = pd.DataFrame()
@@ -188,11 +194,16 @@ if __name__ == '__main__':
     insertDF['Country_Region'] = insertDF['Country_Region'].str.replace(',', ".")
     insertDF['Province_State'] = insertDF['Province_State'].str.replace(',', ".")
     jhuData = insertDF.iloc[:,[0,1,2,5,6]]
-
+    print(jhuData)
     jhuData.columns = ['state','country','date','cases','deaths']
     jhuDataCSV = pd.read_csv("jhuData.csv")
+    print(jhuData)
+    jhuData.drop_duplicates(inplace=True)
+    jhuData.to_csv(os.path.join(currentDir, 'insertData.csv'), index = False)
     newCSV = jhuData.append(jhuDataCSV)#jhuData
-    newCSV.to_csv(r'/mnt/c/Users/Kevin/covidprojectfolder/backend/jhuData.csv', index = False)
+   # print(newCSV['date'])
+    newCSV.drop_duplicates(inplace=True)
+    newCSV.to_csv(os.path.join(currentDir, 'jhuData.csv'), index = False)
 
 
 

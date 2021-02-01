@@ -25,6 +25,21 @@ class Location(models.Model):
     def __repr__(self):
         return f'<Location: location object ({self.state}, {self.country}, {self.latitude}, {self.longitude}>'
 
+class StockData(models.Model):
+    symbol = models.CharField(max_length=10)
+    date = models.DateField(max_length=20)
+    open = models.DecimalField(max_digits=15, decimal_places=7)
+    high = models.DecimalField(max_digits=15, decimal_places=7)
+    low = models.DecimalField(max_digits=15, decimal_places=7)
+    close = models.DecimalField(max_digits=15, decimal_places=7)
+    adj_close = models.DecimalField(max_digits=15, decimal_places=7)
+    volume = models.PositiveIntegerField()
+
+    class Meta:
+        unique_together = (("symbol", "date"),)
+
+    def __repr__(self):
+        return f'<StockData: {self.symbol}, {self.date}, {self.open}, {self.high}, {self.low}, {self.close}>'
 
 class CovidCases(models.Model):
     state = models.CharField(max_length=20, primary_key=True)
