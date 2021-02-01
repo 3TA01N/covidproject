@@ -83,11 +83,17 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'coviddb',
+        'NAME': 'postgres',
         'USER': 'keviny',
         'PASSWORD': '760polaris',
-        'HOST': 'localhost',
-        'PORT': '',
+        'HOST': 'covid19-db.cjkwyjqbr3jb.us-east-2.rds.amazonaws.com',
+        'PORT': '5432',
+        # 'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        # 'NAME': 'coviddb',
+        # 'USER': 'keviny',
+        # 'PASSWORD': '760polaris',
+        # 'HOST': 'localhost',
+        # 'PORT': '',
     }
 }
 

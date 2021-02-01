@@ -42,7 +42,7 @@ export default class Graph extends React.Component {
     
     handleChange (e) {
         this.setState({ selectedName : e.value}, () => {
-            console.log("hi" +this.state.selectedName);
+            //console.log("hi" +this.state.selectedName);
             this.getCountry(this.state.selectedName);
         });
          //this prints the selected option
@@ -170,12 +170,13 @@ export default class Graph extends React.Component {
             
             <div>
                 <Select 
-                    ref = {this.selectedRef}
                     options = {this.state.options} 
-                    value = {this.state.selectedName} onChange={this.handleChange}
+                    value = {this.state.selectedName}
+                    onChange={this.handleChange}
+                    autoFocus={true}
                 />
                 <ChartComponent chartData={this.state.chart} />
-                
+                <ChartComponent dispName={this.state.selectedName}/>
             </div>
             
         );
