@@ -12,7 +12,6 @@ cryptography==2.8
 DateTime==4.3
 dbus-python==1.2.16
 distro==1.4.0
-distro-info===0.23ubuntu1
 Django==3.1.5
 django-cors-headers==3.6.0
 django-postgres-copy==2.4.2
