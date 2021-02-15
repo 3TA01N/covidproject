@@ -10,6 +10,10 @@ logfile
 **/dailyreports/*
 backend/combined.csv
 get-pip.py
+backend/local/*
+backend/SPYHistorical.csv
+backend/stockDataCSV.csv
+backend/insertData.csv
 instance-env/*
 **/.env
 

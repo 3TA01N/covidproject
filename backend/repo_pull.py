@@ -12,6 +12,25 @@ import numpy as np
 
 from contextlib import closing
 
+import os
+
+from django.core.wsgi import get_wsgi_application
+
+os.environ['DJANGO_SETTINGS_MODULE'] = 'backend.settings'
+application = get_wsgi_application()
+from covid19.models import CovidCases
+
+date_list = list(CovidCases.objects.values_list('date', flat=True))
+#print((date_list))
+lastDate = ""
+if date_list == []:
+    lastDate = datetime(2020,1,22)
+else:
+    lastDate = max(date_list)
+    lastDate = datetime.combine(lastDate, datetime.min.time())
+print((lastDate))
+
+
 insertDF = pd.DataFrame()
 currentDir = os.path.dirname(os.path.abspath(__file__))
 print(currentDir)
@@ -29,11 +48,12 @@ for i in countryNames:
     })
     ind+=1
 #print(jhudataPD.columns)
-if (jhudataPD.empty):
-    lastDate = datetime(2020, 1, 22)#'2020-01-22'
-else:
-    lastDate = jhudataPD['date'].max()
-print(lastDate)
+#if (jhudataPD.empty):
+ #   lastDate = datetime(2020, 1, 22)#'2020-01-22'
+#else:
+#    lastDate = jhudataPD['date'].max()
+
+print(datetime.strftime(lastDate, "%Y-%m-%d"))
 #print(lastDate)
 #lastDate = datetime(2020,1,22)
 #print(lastDate)
@@ -41,9 +61,12 @@ print(lastDate)
 #lastDate = datetime(2020, 1, 22)
 
 dateNow = datetime.now()#datetime(2020,3,28)
+dateNow = datetime.strftime(dateNow, '%Y-%m-%d')
+dateNow = datetime.strptime(dateNow, '%Y-%m-%d')
 #print(dateNow)
-
-
+print("last date: " + datetime.strftime(lastDate, "%Y-%m-%d"))
+#print("does ex" + jhudataPD.loc[jhudataPD['date'] == "2020-1-22")
+print(lastDate)
 def connect(param):
     conn = None
     try:
@@ -187,7 +210,14 @@ if __name__ == '__main__':
     #print(insertDF)
     if insertDF.empty:
         print("no updates since last ran")
+        f = open("lastDate.txt", "w")
+        f.write("don't run")
+        f.close()
         quit()
+    
+    f = open("lastDate.txt", "w")
+    f.write("run")
+    f.close()
     insertDF = insertDF.astype({"Confirmed":'int', "Deaths":'int'})
     insertDF['Province_State'] = insertDF['Province_State'].replace(np.nan, "not provided")
     insertDF['Province_State'] = insertDF['Province_State'].replace(np.nan, "not provided")
@@ -202,14 +232,16 @@ if __name__ == '__main__':
     jhuData.to_csv(os.path.join(currentDir, 'insertData.csv'), index = False)
     newCSV = jhuData.append(jhuDataCSV)#jhuData
    # print(newCSV['date'])
+    newCSV['date'] = pd.to_datetime(newCSV['date'])
     newCSV.drop_duplicates(inplace=True)
+    print(newCSV['date'])
     newCSV.to_csv(os.path.join(currentDir, 'jhuData.csv'), index = False)
 
 
 
-    conn = connect(config())
+    #conn = connect(config())
     #copyfrom(conn, jhuData, 'covid_cases')
-    conn.commit()
-    conn.close()
+   # conn.commit()
+  #  conn.close()
     
     

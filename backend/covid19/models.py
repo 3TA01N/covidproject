@@ -32,14 +32,17 @@ class StockData(models.Model):
     high = models.DecimalField(max_digits=15, decimal_places=7)
     low = models.DecimalField(max_digits=15, decimal_places=7)
     close = models.DecimalField(max_digits=15, decimal_places=7)
-    adj_close = models.DecimalField(max_digits=15, decimal_places=7)
+    adj_close = models.DecimalField(max_digits=15, decimal_places=7, null=True, blank=True)
     volume = models.PositiveIntegerField()
+    objects = CopyManager()
 
     class Meta:
-        unique_together = (("symbol", "date"),)
+        managed = False
+        db_table = 'covid19_stockdata'
+        unique_together = (('symbol', 'date'),)
 
     def __repr__(self):
-        return f'<StockData: {self.symbol}, {self.date}, {self.open}, {self.high}, {self.low}, {self.close}>'
+        return f'<StockData: covid10_stockdata object ({self.symbol}, {self.date}, {self.open}, {self.high}, {self.low}, {self.close}>'
 
 class CovidCases(models.Model):
     state = models.CharField(max_length=20, primary_key=True)
