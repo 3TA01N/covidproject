@@ -18,21 +18,25 @@ class Command(BaseCommand):
             print(type(csvDate))
             importCase = False
 
-
-        stockPD = (pd.read_csv("stockDataCSV.csv"))
-        csvDateS = stockPD['Date'].max()
-        dbDateS = max(StockData.objects.values_list('date', flat=True))
-        print(type(csvDateS))
-        print(csvDateS)
-       # quit()
-        #csvDateS = datetime.strptime(csvDateS,'%Y-%m-%d')
-        dbDateS = datetime.combine(dbDateS, datetime.min.time())
         importStock = True
-      #  if csvDateS!=dbDateS:
-     #       print(dbDateS)
-    #        print(csvDateS)
-   #         print("added new entries to StockData")
-        StockData.objects.from_csv('./stockDataCSV.csv', dict(symbol='Symbol',date='Date',open='Open',high='High',low='Low',close='Close'))
+        stockPD = (pd.read_csv("stockDataCSV.csv"))
+        dbDateS = max(StockData.objects.values_list('date', flat=True))
+        if stockPD.empty:
+            csvDateS = dbDateS
+        else:
+            csvDateS = stockPD['Date'].max()
+            print(type(csvDateS))
+            print(csvDateS)
+       # quit()
+       
+            csvDateS = datetime.strptime(csvDateS,'%Y-%m-%d')
+            dbDateS = datetime.combine(dbDateS, datetime.min.time())
+       # importStock = True
+        if csvDateS!=dbDateS:
+            print(dbDateS)
+            print(csvDateS)
+            print("added new entries to StockData")
+            StockData.objects.from_csv('./stockDataCSV.csv', dict(symbol='Symbol',date='Date',open='Open',high='High',low='Low',close='Close'))
         
 
         f = open('./lastDate.txt', 'r')

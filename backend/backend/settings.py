@@ -136,4 +136,4 @@ STATIC_URL = '/static/'
 CORS_ORIGIN_WHITELIST = (
     'https://localhost:3000',
 )
-django-heroku.settings(locals())
+django_heroku.settings(locals())
