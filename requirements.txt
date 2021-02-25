@@ -18,6 +18,7 @@ django-cors-headers==3.6.0
 django-postgres-copy==2.4.2
 djangorestframework==3.12.2
 entrypoints==0.3
+gunicorn==20.0.4
 httplib2==0.14.0
 hyperlink==19.0.0
 idna==2.8
