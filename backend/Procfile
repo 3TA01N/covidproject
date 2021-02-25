@@ -1,1 +1,1 @@
-web: cd backend; python3 manage.py makemigrations; python3 manage.py migrate; gunicorn backend.wsgi; python3 manage.py runserver;
+web: cd backend; python3 manage.py makemigrations; python3 manage.py migrate; gunicorn backend.wsgi; python3 manage.py runserver 0.0.0.0:8000;
