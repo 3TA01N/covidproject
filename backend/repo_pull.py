@@ -32,7 +32,7 @@ print((lastDate))
 
 
 insertDF = pd.DataFrame()
-currentDir = os.path.dirname(os.path.abspath(__file__))
+currentDir = "/home/ubuntu/covidproject/backend"
 print(currentDir)
 print(os.path.join(currentDir, 'jhuData.csv'))
 

@@ -1,0 +1,2 @@
+"03/09/2021, 04:54:01",981 root INFO running stockPull.py
+"03/09/2021, 04:54:01",982 asyncio DEBUG Using selector: EpollSelector
