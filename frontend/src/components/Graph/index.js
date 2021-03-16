@@ -11,7 +11,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import {Line, line, Scatter} from 'react-chartjs-2';
 import { useParams } from "react-router-dom"
-const API_URL = 'https://kevin-covid-backend.herokuapp.com';
+const API_URL = 'https://kevin-covid-backend.herokuapp.com'
 
 
 
@@ -118,7 +118,6 @@ export default class Graph extends React.Component {
             var jsonObj = {x: moment(reduced[j].date), y: reduced[j].deaths};
             json.push(jsonObj);
         }
-        console.log(json);
         return(json)
         this.setState( {
             chart: {
@@ -153,7 +152,8 @@ export default class Graph extends React.Component {
 	    console.log(openData);
 	    var closeData = this.convPointStock(this.state.stockRawData, "close");
 	    //var closeData = this.state.stockRawData.close;
-	    console.log(this.state.stockRawData);
+	    console.log("chartdata");
+        console.log(this.state.chart);
             var deathData = this.convToPointDeath(this.state.data);
             var caseData = this.convToPointCase(this.state.data);
             this.setState( {
@@ -181,6 +181,9 @@ export default class Graph extends React.Component {
 			}
                     ]
                 },
+            }, () => {
+            console.log("chart data from index.js line 186");
+            console.log(this.state.chart.datasets);
             })
         }));
     }

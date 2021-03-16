@@ -1,0 +1,3 @@
+"03/14/2021, 05:04:02",638 root INFO running stockPull.py
+"03/14/2021, 05:04:02",639 asyncio DEBUG Using selector: EpollSelector
+"03/14/2021, 05:04:02",692 root INFO [Errno 2] No such file or directory: 'SPYHistorical.csv'

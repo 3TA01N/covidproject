@@ -33,7 +33,7 @@ try:
 
 
     insertDF = pd.DataFrame()
-    stockDataCSV = (pd.read_csv("SPYHistorical.csv", usecols=['Symbol', 'Date', 'Open', 'High', 'Low', 'Close']))
+    stockDataCSV = (pd.read_csv("/home/ubuntu/covidproject/backend/SPYHistorical.csv", usecols=['Symbol', 'Date', 'Open', 'High', 'Low', 'Close']))
     stockDataCSV['Date'] = pd.to_datetime(stockDataCSV['Date'])
 
     currentDir = os.path.dirname(os.path.abspath(__file__))

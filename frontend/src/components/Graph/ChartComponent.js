@@ -8,15 +8,33 @@ export default class ChartComponent extends React.Component {
     super(props);
     this.chartRef = React.createRef();
     this.state = {
-        //chart : null,
+        chart: {
+                datasets: [
+                    {
+                        
+                    }
+                ]
+        }
+
         //isLoaded : false
      };
+   
   }
 
 
   componentDidMount(){
+   
+}
+    componentDidUpdate(prevProps) {
+        if (prevProps.chartData !== this.props.chartData) {
+            this.setState({chart: this.props.chartData}, () => {
+        console.log("line 31 in chartcomponenet");
+        console.log(this.state.chart.datasets[0].data);
+    
+    });  
+}
+}
 
-  }
 
 //  static getDerivedStateFromProps(props, state) {
 //      if (state.chartData !== props.chartData) {
@@ -59,22 +77,49 @@ export default class ChartComponent extends React.Component {
 //      }
 //      return null;
      
-//  } 
+//  } chart
 
 //  componentDidUpdate(prevProps, prevState) {
 //     if (this.props.chartData !== prevProps.chartData) {
 //       this.selectNew();
 //     }
 //   }
+  
+
 
   render(){
-    // if (!this.state.isLoaded) {
-    //     return <p>Loading.</p>;
-    // }
-    console.log(this.props.dispName)
+    if (!this.props.chartData) {
+         return <p>Loading.</p>;
+    }
+    //console.log("chart data from chart");
+    //this.waitNull();
+
     return (
         <div>
           
+            <Scatter
+                data={this.props.chartData.datasets[0].data}
+                options={{
+                    title:{
+                      display:true,
+                      text:"cases",
+                      fontSize:20
+                    },
+                    scales: {
+                        xAxes: [{
+                            position: 'bottom',
+                            display: true,
+                            type: 'time',
+                            time: {
+                                parser: 'YYYY-MM-DD',
+                                displayFormats: {
+                                    'day': 'YYYY-MM-DD'
+                                }
+                            }
+                        }]
+                    }
+                }}
+            />
             <Scatter
                 data={this.props.chartData}
                 options={{
@@ -98,7 +143,7 @@ export default class ChartComponent extends React.Component {
                     }
                 }}
             />
-            
+ 
         </div>
     )
         
