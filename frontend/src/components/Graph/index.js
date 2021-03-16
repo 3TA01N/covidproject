@@ -11,9 +11,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import {Line, line, Scatter} from 'react-chartjs-2';
 import { useParams } from "react-router-dom"
-const API_URL = 'https://kevin-covid-backend.herokuapp.com'
-
-
+//const API_URL = 'https://kevin-covid-backend.herokuapp.com'
+const API_URL = process.env.REACT_APP_SERVER_IP;
 
 
 
